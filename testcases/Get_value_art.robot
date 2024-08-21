@@ -17,7 +17,7 @@ Test Teardown    Close All Browsers
 
 *** Variables ***
 ${value_art}    C:/Automate/Web/Get_value_art/resources/get_value_art.csv
-${not_value}    -
+#${not_value}    -
 
 *** Test Cases ***
 Create clone art
