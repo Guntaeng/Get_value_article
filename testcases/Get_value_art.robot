@@ -28,7 +28,7 @@ Create clone art
 *** Keywords ***
 Get value article 
     [Arguments]    ${id}
-    Wait And Click Element    //p[text()='จัดการสินค้า']
+    #Wait And Click Element    //p[text()='จัดการสินค้า']
     Wait And Click Element    //p[text()='รายการสินค้าสร้างสำเร็จ (MM43)']
     Wait And Wait Until Element Is Visible    //*[@data-dx_placeholder='123456789']/preceding-sibling::input
     Wait And Click Element    //*[@data-dx_placeholder='123456789']/preceding-sibling::input
